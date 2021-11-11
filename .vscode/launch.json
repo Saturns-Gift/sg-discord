@@ -7,10 +7,11 @@
       {
          "type": "node",
          "request": "launch",
-         "name": "Debug Bot",
+         "name": "Debug",
          "runtimeExecutable": "nodemon",
          "restart": true,
          "console": "integratedTerminal",
+         "internalConsoleOptions": "neverOpen"
      }
    ]
 }
