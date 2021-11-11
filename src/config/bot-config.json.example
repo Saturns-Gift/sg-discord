@@ -6,5 +6,7 @@
   "intents": [
     "GUILDS",
     "GUILD_MESSAGES"
-  ]
+  ],
+  "supabaseUrl": "your superbase url",
+  "superbasePublicAnonKey": "your superbase public anon key"
 }

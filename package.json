@@ -13,6 +13,7 @@
   },
   "author": "Luca DeCaprio",
   "dependencies": {
+    "@supabase/supabase-js": "^1.27.0",
     "beautify.log": "^2.1.2",
     "bufferutil": "^4.0.3",
     "discord.js-light": "^3.5.4",
