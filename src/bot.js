@@ -1,5 +1,6 @@
-const launchTimestamp = Date.now();
+require('module-alias/register');
 
+const launchTimestamp = Date.now();
 const Discord = require('discord.js-light');
 const Logger = require('./core/utils/logger');
 const eventManager = require('./core/event-handler/event-handler');

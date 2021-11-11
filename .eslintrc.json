@@ -7,6 +7,22 @@
     "extends": [
         "airbnb-base"
     ],
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    [
+                        "@sg",
+                        "./src"
+                    ]
+                ],
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        }
+    },
     "parserOptions": {
         "ecmaVersion": 12
     },
