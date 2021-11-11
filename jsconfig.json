@@ -1,8 +1,9 @@
 {
-   "compilerOptions": {
+  "compilerOptions": {
     "baseUrl": "./",
-     "paths": {
-       "@sg/*": ["src/*"],
-     }
-   }
- }
+    "paths": {
+      "@sg/*": ["src/*"],
+    }
+  },
+  "exclude": ["node_modules"]
+}
