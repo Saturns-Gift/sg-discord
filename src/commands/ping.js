@@ -13,7 +13,7 @@ module.exports = {
    category: 'testing',
 
    // Command cooldown in milliseconds
-   cooldown: 500,
+   cooldown: 400,
 
    async run(ctx) {
       ctx.channel.send('Pong!');
