@@ -1,5 +1,5 @@
 {
-  "name": "Bot name",
+  "name": "Bot Name",
   "status": "Bot status",
   "statusType": "Bot status type, either 'PLAYING', 'LISTENING' or 'WATCHING'",
   "token": "",

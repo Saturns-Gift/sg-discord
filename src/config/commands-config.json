@@ -1,5 +1,5 @@
 {
-  "prefix": "!",
+  "prefix": "sg.",
   "cooldownsEnabled": true,
-  "defaultCooldownAmount": 2000
+  "defaultCooldownAmount": 1000
 }
