@@ -4,7 +4,7 @@ module.exports = {
    description: 'A simple ping',
 
    // Whether the command requires arguments
-   reqArgs: true,
+   reqArgs: false,
    // Arguments usage
    usage: '{ ping }',
    // Example usage of the command
@@ -13,7 +13,7 @@ module.exports = {
    category: 'testing',
 
    // Command cooldown in milliseconds
-   cooldown: 300,
+   cooldown: 500,
 
    async run(ctx) {
       ctx.channel.send('Pong!');
