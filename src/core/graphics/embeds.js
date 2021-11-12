@@ -1,7 +1,7 @@
 const { MessageEmbed } = require('discord.js-light');
+const tipsManager = require('@sg/core/utils/tips/tips-manager');
+const { prefix } = require('@sg/config/commands-config.json');
 const colors = require('./colors');
-const tipsManager = require('../utils/tips/tips-manager');
-const { prefix } = require('../../config/commands-config.json');
 
 module.exports = {
    info(color, description) {
